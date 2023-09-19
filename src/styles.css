@@ -1,0 +1,90 @@
+html {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(195, 233, 255, 1) 0%,
+    rgba(205, 205, 250, 1) 35%,
+    rgba(255, 233, 233, 1) 100%
+  );
+}
+#root > div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-title {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin: 1em 0em;
+}
+
+.news-card-container {
+  width: 75%;
+}
+
+.news-content-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding: 2em 0em;
+  border-bottom: 0.15em solid black;
+}
+
+.content-col {
+  width: 60%;
+}
+.img-col {
+  width: 40%;
+}
+
+.img-col img {
+  height: 14em;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.img-col img:hover {
+  transform: scale(1.1);
+}
+
+.article-title {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  font-size: 2em;
+  color: black;
+}
+
+.author {
+  font-size: 1.25em;
+}
+
+.article-content {
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+
+.article-link {
+  text-decoration: none;
+  color: black;
+}
+
+.article-link:hover {
+  text-decoration: underline;
+}
+
+.deleteButton {
+  height: 1.25em;
+  padding: 0.5em 0.75em;
+  border-radius: 30px;
+  box-shadow: 0.25em 0.25em 0.5em #5b5c5d;
+  border: none;
+  background: #bc6077;
+  color: white;
+  cursor: pointer;
+}

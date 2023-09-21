@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-NewsFeed-Week3/static/css/main.1fa0e5ab.css",
+    "main.js": "/React-NewsFeed-Week3/static/js/main.bf6afd53.js",
+    "index.html": "/React-NewsFeed-Week3/index.html",
+    "main.1fa0e5ab.css.map": "/React-NewsFeed-Week3/static/css/main.1fa0e5ab.css.map",
+    "main.bf6afd53.js.map": "/React-NewsFeed-Week3/static/js/main.bf6afd53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fa0e5ab.css",
+    "static/js/main.bf6afd53.js"
+  ]
+}
